@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 64" width="900" height="64" role="img" aria-label="ARCHIVO ACADÉMICO: proyectos de la facultad">
   <defs>
     <filter id="b" x="-10%" y="-60%" width="120%" height="220%"><feGaussianBlur stdDeviation="2.5" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <linearGradient id="f" x1="0" x2="1"><stop offset="0" stop-color="#b026ff" stop-opacity="0.18"/><stop offset="1" stop-color="#b026ff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="f" x1="0" x2="1"><stop offset="0" stop-color="#2f6bff" stop-opacity="0.18"/><stop offset="1" stop-color="#2f6bff" stop-opacity="0"/></linearGradient>
     <style>
       .t{font-family:'DejaVu Sans Mono','Consolas','Courier New',monospace}
       .g1{animation:a 4s infinite steps(1)} .g2{animation:z 4s infinite steps(1)}
@@ -12,13 +12,13 @@
     </style>
   </defs>
   <rect x="2" y="8" width="896" height="48" rx="3" fill="url(#f)"/>
-  <path d="M2 24 V8 H20 M880 56 H898 V40" fill="none" stroke="#b026ff" stroke-width="2" filter="url(#b)"/>
-  <rect x="2" y="54" width="40" height="2" fill="#b026ff" class="scan" filter="url(#b)"/>
-  <text x="22" y="40" class="t" font-size="13" fill="#b026ff" opacity="0.9">◈</text>
+  <path d="M2 24 V8 H20 M880 56 H898 V40" fill="none" stroke="#2f6bff" stroke-width="2" filter="url(#b)"/>
+  <rect x="2" y="54" width="40" height="2" fill="#2f6bff" class="scan" filter="url(#b)"/>
+  <text x="22" y="40" class="t" font-size="13" fill="#2f6bff" opacity="0.9">◈</text>
   <g class="t" font-size="22" font-weight="700" letter-spacing="3">
     <text x="44" y="41" fill="#00f0ff" opacity="0.6" class="g1">ARCHIVO ACADÉMICO</text>
-    <text x="44" y="41" fill="#ff2fb0" opacity="0.6" class="g2">ARCHIVO ACADÉMICO</text>
-    <text x="44" y="41" fill="#f4f0ff" filter="url(#b)">ARCHIVO ACADÉMICO</text>
+    <text x="44" y="41" fill="#ffd23f" opacity="0.6" class="g2">ARCHIVO ACADÉMICO</text>
+    <text x="44" y="41" fill="#eef6ff" filter="url(#b)">ARCHIVO ACADÉMICO</text>
   </g>
-  <text x="878" y="40" class="t" font-size="13" fill="#b026ff" text-anchor="end" opacity="0.85">// proyectos de la facultad<tspan class="cur">_</tspan></text>
+  <text x="878" y="40" class="t" font-size="13" fill="#2f6bff" text-anchor="end" opacity="0.85">// proyectos de la facultad<tspan class="cur">_</tspan></text>
 </svg>

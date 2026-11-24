@@ -85,37 +85,37 @@ El Snake clásico en consola, con velocidad que aumenta y registro de puntajes. 
  
 **Datos**
  
-![Python](https://img.shields.io/badge/Python-0D0221?style=for-the-badge&logo=python&logoColor=00F0FF)
-![Pandas](https://img.shields.io/badge/Pandas-0D0221?style=for-the-badge&logo=pandas&logoColor=00F0FF)
-![NumPy](https://img.shields.io/badge/NumPy-0D0221?style=for-the-badge&logo=numpy&logoColor=00F0FF)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-0D0221?style=for-the-badge&logoColor=00F0FF)
-![Google Colab](https://img.shields.io/badge/Google_Colab-0D0221?style=for-the-badge&logo=googlecolab&logoColor=00F0FF)
-![SQLite](https://img.shields.io/badge/SQLite-0D0221?style=for-the-badge&logo=sqlite&logoColor=00F0FF)
-![Excel](https://img.shields.io/badge/Excel-0D0221?style=for-the-badge&logo=microsoftexcel&logoColor=00F0FF)
+![Python](https://img.shields.io/badge/Python-0A1628?style=for-the-badge&logo=python&logoColor=00F0FF)
+![Pandas](https://img.shields.io/badge/Pandas-0A1628?style=for-the-badge&logo=pandas&logoColor=00F0FF)
+![NumPy](https://img.shields.io/badge/NumPy-0A1628?style=for-the-badge&logo=numpy&logoColor=00F0FF)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-0A1628?style=for-the-badge&logoColor=00F0FF)
+![Google Colab](https://img.shields.io/badge/Google_Colab-0A1628?style=for-the-badge&logo=googlecolab&logoColor=00F0FF)
+![SQLite](https://img.shields.io/badge/SQLite-0A1628?style=for-the-badge&logo=sqlite&logoColor=00F0FF)
+![Excel](https://img.shields.io/badge/Excel-0A1628?style=for-the-badge&logo=microsoftexcel&logoColor=00F0FF)
  
 **Desarrollo**
  
-![C#](https://img.shields.io/badge/C%23-0D0221?style=for-the-badge&logo=dotnet&logoColor=FF2FB0)
-![.NET](https://img.shields.io/badge/.NET-0D0221?style=for-the-badge&logo=dotnet&logoColor=FF2FB0)
-![SQL Server](https://img.shields.io/badge/SQL_Server-0D0221?style=for-the-badge&logo=microsoftsqlserver&logoColor=FF2FB0)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D0221?style=for-the-badge&logo=postgresql&logoColor=FF2FB0)
-![JavaScript](https://img.shields.io/badge/JavaScript-0D0221?style=for-the-badge&logo=javascript&logoColor=FF2FB0)
-![React](https://img.shields.io/badge/React-0D0221?style=for-the-badge&logo=react&logoColor=FF2FB0)
-![Next.js](https://img.shields.io/badge/Next.js-0D0221?style=for-the-badge&logo=nextdotjs&logoColor=FF2FB0)
-![TypeScript](https://img.shields.io/badge/TypeScript-0D0221?style=for-the-badge&logo=typescript&logoColor=FF2FB0)
+![C#](https://img.shields.io/badge/C%23-0A1628?style=for-the-badge&logo=dotnet&logoColor=FFD23F)
+![.NET](https://img.shields.io/badge/.NET-0A1628?style=for-the-badge&logo=dotnet&logoColor=FFD23F)
+![SQL Server](https://img.shields.io/badge/SQL_Server-0A1628?style=for-the-badge&logo=microsoftsqlserver&logoColor=FFD23F)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0A1628?style=for-the-badge&logo=postgresql&logoColor=FFD23F)
+![JavaScript](https://img.shields.io/badge/JavaScript-0A1628?style=for-the-badge&logo=javascript&logoColor=FFD23F)
+![React](https://img.shields.io/badge/React-0A1628?style=for-the-badge&logo=react&logoColor=FFD23F)
+![Next.js](https://img.shields.io/badge/Next.js-0A1628?style=for-the-badge&logo=nextdotjs&logoColor=FFD23F)
+![TypeScript](https://img.shields.io/badge/TypeScript-0A1628?style=for-the-badge&logo=typescript&logoColor=FFD23F)
  
 **Herramientas**
  
-![Git](https://img.shields.io/badge/Git-0D0221?style=for-the-badge&logo=git&logoColor=B026FF)
-![Docker](https://img.shields.io/badge/Docker-0D0221?style=for-the-badge&logo=docker&logoColor=B026FF)
-![Google Cloud](https://img.shields.io/badge/Cloud_Run-0D0221?style=for-the-badge&logo=googlecloud&logoColor=B026FF)
+![Git](https://img.shields.io/badge/Git-0A1628?style=for-the-badge&logo=git&logoColor=2F6BFF)
+![Docker](https://img.shields.io/badge/Docker-0A1628?style=for-the-badge&logo=docker&logoColor=2F6BFF)
+![Google Cloud](https://img.shields.io/badge/Cloud_Run-0A1628?style=for-the-badge&logo=googlecloud&logoColor=2F6BFF)
  
 **Google Workspace**
  
-![Google Forms](https://img.shields.io/badge/Google_Forms-0D0221?style=for-the-badge&logo=googleforms&logoColor=00F0FF)
-![Google Docs](https://img.shields.io/badge/Google_Docs-0D0221?style=for-the-badge&logo=googledocs&logoColor=00F0FF)
-![Google Sheets](https://img.shields.io/badge/Google_Sheets-0D0221?style=for-the-badge&logo=googlesheets&logoColor=00F0FF)
-![Apps Script](https://img.shields.io/badge/Apps_Script-0D0221?style=for-the-badge&logo=google&logoColor=00F0FF)
+![Google Forms](https://img.shields.io/badge/Google_Forms-0A1628?style=for-the-badge&logo=googleforms&logoColor=00F0FF)
+![Google Docs](https://img.shields.io/badge/Google_Docs-0A1628?style=for-the-badge&logo=googledocs&logoColor=00F0FF)
+![Google Sheets](https://img.shields.io/badge/Google_Sheets-0A1628?style=for-the-badge&logo=googlesheets&logoColor=00F0FF)
+![Apps Script](https://img.shields.io/badge/Apps_Script-0A1628?style=for-the-badge&logo=google&logoColor=00F0FF)
 
 <img src="assets/divider.svg" alt="" width="100%">
  
@@ -128,8 +128,8 @@ Antes de programar a tiempo completo pasé dos años en soporte técnico, resolv
 <img src="assets/secciones/canal.svg" alt="Abrir canal: hablemos" width="100%">
  
 <p align="center">
-  <a href="https://www.linkedin.com/in/jeanesquen"><img src="https://img.shields.io/badge/LinkedIn-jeanesquen-0D0221?style=for-the-badge&logo=linkedin&logoColor=00F0FF" alt="LinkedIn"></a>
-  <a href="mailto:jeanpierreesquen@gmail.com"><img src="https://img.shields.io/badge/Email-jeanpierreesquen@gmail.com-0D0221?style=for-the-badge&logo=gmail&logoColor=FF2FB0" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/jeanesquen"><img src="https://img.shields.io/badge/LinkedIn-jeanesquen-0A1628?style=for-the-badge&logo=linkedin&logoColor=00F0FF" alt="LinkedIn"></a>
+  <a href="mailto:jeanpierreesquen@gmail.com"><img src="https://img.shields.io/badge/Email-jeanpierreesquen@gmail.com-0A1628?style=for-the-badge&logo=gmail&logoColor=FFD23F" alt="Email"></a>
 </p>
 
 <p align="center"><sub><code>&gt; fin de la transmisión_</code></sub></p>

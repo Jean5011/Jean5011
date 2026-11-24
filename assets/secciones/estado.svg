@@ -17,8 +17,8 @@
   <text x="22" y="40" class="t" font-size="13" fill="#00f0ff" opacity="0.9">◈</text>
   <g class="t" font-size="22" font-weight="700" letter-spacing="3">
     <text x="44" y="41" fill="#00f0ff" opacity="0.6" class="g1">ESTADO DEL SISTEMA</text>
-    <text x="44" y="41" fill="#ff2fb0" opacity="0.6" class="g2">ESTADO DEL SISTEMA</text>
-    <text x="44" y="41" fill="#f4f0ff" filter="url(#b)">ESTADO DEL SISTEMA</text>
+    <text x="44" y="41" fill="#ffd23f" opacity="0.6" class="g2">ESTADO DEL SISTEMA</text>
+    <text x="44" y="41" fill="#eef6ff" filter="url(#b)">ESTADO DEL SISTEMA</text>
   </g>
   <text x="878" y="40" class="t" font-size="13" fill="#00f0ff" text-anchor="end" opacity="0.85">// lo que estoy haciendo ahora<tspan class="cur">_</tspan></text>
 </svg>
