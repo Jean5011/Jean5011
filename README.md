@@ -18,6 +18,7 @@ Mi primer sistema de punto de venta lo usan varios comercios. Desde ahí me qued
 - Trabajo como pasante de automatización y datos en CAMEES, de forma remota: depuro bases, armo validaciones con Apps Script y planillas de seguimiento.
 - Estoy armando un sistema de facturación electrónica conectado a ARCA.
 - Busco mi primer puesto como trainee en ciencia o análisis de datos, o como desarrollador .NET junior.
+
 <img src="assets/divider.svg" alt="" width="100%">
  
 ## 📊 Datos e inteligencia artificial
@@ -37,7 +38,7 @@ Tomé un dataset público con más de 2.200 ofertas de empleo tech, bastante des
 **[AI Creative Studio](https://github.com/Jean5011/ai-creative-studio-guia)**
 Lo construí en el taller de Nerdearla siguiendo el codelab de Google ([material original de Saoussen-CH](https://github.com/Saoussen-CH/mas-a2a-gcp)). Son 6 agentes de IA que arman una campaña de Instagram completa a partir de una sola instrucción. Desplegué los agentes en Cloud Run y aprendí mucho resolviendo errores de permisos leyendo logs.
 `Python` `Google ADK` `Gemini` `A2A` `MCP` `Cloud Run`
- 
+
 <img src="assets/divider.svg" alt="" width="100%">
  
 ## 🛒 Desarrollo: sistemas que construí
@@ -65,7 +66,7 @@ App web para llevar ingresos y gastos y ver el balance en tiempo real.
 **[Juego de la serpiente](https://github.com/Jean5011/SnakeGame)**
 El Snake clásico en consola, con velocidad que aumenta y registro de puntajes. Lo hice por diversión.
 `C#` `.NET Framework`
- 
+
 <img src="assets/divider.svg" alt="" width="100%">
  
 ## 🎓 De la facultad
@@ -77,7 +78,7 @@ El Snake clásico en consola, con velocidad que aumenta y registro de puntajes. 
 | [Proyecto banco](https://github.com/Jean5011/Proyecto-banco) | Proyecto académico | Java |
 | [TP Integrador](https://github.com/Jean5011/TP_Integrador) | Proyecto académico | Java |
 | [Programación 3](https://github.com/Jean5011/TP_Programacion_3) | Trabajos prácticos de la materia | C# |
- 
+
 <img src="assets/divider.svg" alt="" width="100%">
  
 ## 🛠️ Con qué trabajo
@@ -115,13 +116,13 @@ El Snake clásico en consola, con velocidad que aumenta y registro de puntajes. 
 ![Google Docs](https://img.shields.io/badge/Google_Docs-0D0221?style=for-the-badge&logo=googledocs&logoColor=00F0FF)
 ![Google Sheets](https://img.shields.io/badge/Google_Sheets-0D0221?style=for-the-badge&logo=googlesheets&logoColor=00F0FF)
 ![Apps Script](https://img.shields.io/badge/Apps_Script-0D0221?style=for-the-badge&logo=google&logoColor=00F0FF)
- 
+
 <img src="assets/divider.svg" alt="" width="100%">
  
 ## 🙋 Un poco más de mí
  
 Antes de programar a tiempo completo pasé dos años en soporte técnico, resolviendo problemas de red por teléfono. Ahí aprendí a explicar cosas técnicas sin vueltas. También di clases de Sistemas Operativos y Programación Orientada a Objetos en la Universidad de Pilar, a grupos de entre 30 y 70 alumnos.
- 
+
 <img src="assets/divider.svg" alt="" width="100%">
  
 ## 📫 Hablemos
