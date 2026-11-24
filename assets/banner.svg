@@ -1,136 +1,165 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Jean Pierre Esquen — Ciencia de datos y desarrollo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Jean Esquen — Ciencia de datos, análisis y desarrollo">
   <defs>
     <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#05010f"/>
-      <stop offset="0.6" stop-color="#1a0638"/>
-      <stop offset="1" stop-color="#3a0a52"/>
+      <stop offset="0" stop-color="#03010a"/><stop offset="0.55" stop-color="#140530"/><stop offset="1" stop-color="#2b0a45"/>
     </linearGradient>
-    <linearGradient id="suelo" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#2a0640"/>
-      <stop offset="1" stop-color="#05010f"/>
+    <linearGradient id="bruma" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff2fb0" stop-opacity="0"/><stop offset="1" stop-color="#ff2fb0" stop-opacity="0.22"/>
     </linearGradient>
-    <linearGradient id="luna" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ff2fb0"/>
-      <stop offset="1" stop-color="#ff9a3c"/>
+    <linearGradient id="asfalto" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d0420"/><stop offset="1" stop-color="#020007"/>
     </linearGradient>
-    <filter id="brillo" x="-20%" y="-50%" width="140%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <linearGradient id="reflejoC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00f0ff" stop-opacity="0.55"/><stop offset="1" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="reflejoM" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff2fb0" stop-opacity="0.55"/><stop offset="1" stop-color="#ff2fb0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="holo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00f0ff" stop-opacity="0.28"/><stop offset="1" stop-color="#00f0ff" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="haz" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b026ff" stop-opacity="0"/><stop offset="1" stop-color="#b026ff" stop-opacity="0.35"/>
+    </linearGradient>
+    <filter id="brillo" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="brilloSuave" x="-20%" y="-50%" width="140%" height="200%">
-      <feGaussianBlur stdDeviation="2" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <clipPath id="marco"><rect width="1200" height="340" rx="14"/></clipPath>
-    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
-      <rect width="4" height="1" fill="#ffffff" opacity="0.035"/>
-    </pattern>
+    <filter id="difuso"><feGaussianBlur stdDeviation="3"/></filter>
+    <clipPath id="marco"><rect width="1200" height="380" rx="14"/></clipPath>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#ffffff" opacity="0.03"/></pattern>
     <style>
       .t { font-family: 'DejaVu Sans Mono', 'Consolas', 'Courier New', monospace; }
       .titulo { font-size: 58px; font-weight: 700; letter-spacing: 6px; }
-      .glitch-c { animation: gc 3.2s infinite steps(1); }
-      .glitch-m { animation: gm 3.2s infinite steps(1); }
-      @keyframes gc { 0%,88%,100% { transform: translate(-3px,0); } 90% { transform: translate(-9px,2px); } 93% { transform: translate(4px,-2px); } }
-      @keyframes gm { 0%,88%,100% { transform: translate(3px,0); } 90% { transform: translate(9px,-2px); } 93% { transform: translate(-4px,2px); } }
+      .glitch-c { animation: gc 3.4s infinite steps(1); }
+      .glitch-m { animation: gm 3.4s infinite steps(1); }
+      @keyframes gc { 0%,86%,100% { transform: translate(-3px,0); } 88% { transform: translate(-10px,2px); } 91% { transform: translate(5px,-2px); } }
+      @keyframes gm { 0%,86%,100% { transform: translate(3px,0); } 88% { transform: translate(10px,-2px); } 91% { transform: translate(-5px,2px); } }
       .parpadeo { animation: p 1s infinite steps(1); }
       @keyframes p { 50% { opacity: 0; } }
-      .neon { animation: n 4s infinite; }
-      @keyframes n { 0%,100% { opacity: 1; } 47% { opacity: 1; } 48% { opacity: 0.35; } 49% { opacity: 1; } 51% { opacity: 0.5; } 52% { opacity: 1; } }
-      .grilla { animation: g 1.6s linear infinite; }
-      @keyframes g { from { transform: translateY(0); } to { transform: translateY(20px); } }
-      .ventana { animation: v 5s infinite; }
-      @keyframes v { 0%,100% { opacity: 0.9; } 50% { opacity: 0.3; } }
+      .neon { animation: n 4.5s infinite; }
+      @keyframes n { 0%,46%,100% { opacity: 1; } 47% { opacity: 0.3; } 48% { opacity: 1; } 50% { opacity: 0.5; } 51% { opacity: 1; } }
+      .holo { animation: h 3s infinite; }
+      @keyframes h { 0%,100% { opacity: 0.95; } 30% { opacity: 0.75; } 31% { opacity: 0.35; } 32% { opacity: 0.85; } 70% { opacity: 0.7; } }
+      .lluvia { animation: ll 0.9s linear infinite; }
+      .lluvia2 { animation: ll 1.3s linear infinite; }
+      @keyframes ll { from { transform: translate(0,-60px); } to { transform: translate(-18px,60px); } }
+      .barrido { animation: b 4s ease-in-out infinite; }
+      @keyframes b { 0% { transform: translateY(0); opacity: 0; } 10% { opacity: 0.8; } 90% { opacity: 0.8; } 100% { transform: translateY(176px); opacity: 0; } }
+      .ventana { animation: v 6s infinite; }
+      @keyframes v { 0%,100% { opacity: 0.9; } 50% { opacity: 0.35; } }
     </style>
   </defs>
 
   <g clip-path="url(#marco)">
-    <rect width="1200" height="340" fill="url(#cielo)"/>
+    <rect width="1200" height="380" fill="url(#cielo)"/>
 
-    <!-- Estrellas -->
-    <g fill="#ffffff" opacity="0.6">
-      <circle cx="80" cy="40" r="1"/><circle cx="210" cy="90" r="1.2"/><circle cx="330" cy="30" r="0.8"/>
-      <circle cx="470" cy="70" r="1"/><circle cx="760" cy="35" r="1.1"/><circle cx="880" cy="85" r="0.9"/>
-      <circle cx="1010" cy="25" r="1.2"/><circle cx="1120" cy="70" r="0.8"/><circle cx="610" cy="20" r="0.9"/>
+    <!-- Megatorre corporativa con haz de luz -->
+    <polygon points="575,0 625,0 640,290 560,290" fill="url(#haz)" opacity="0.5"/>
+    <g fill="#0b0322"><polygon points="1010,40 1060,20 1110,40 1110,290 1010,290"/><rect x="1052" y="0" width="16" height="24"/></g>
+    <g stroke="#b026ff" stroke-width="1.5" opacity="0.7" filter="url(#brillo)">
+      <line x1="1030" y1="50" x2="1030" y2="280"/><line x1="1090" y1="50" x2="1090" y2="280"/>
     </g>
+    <circle cx="1060" cy="18" r="4" fill="#ff2fb0" class="parpadeo" filter="url(#brillo)"/>
 
-    <!-- Luna neón -->
-    <circle cx="1050" cy="120" r="55" fill="url(#luna)" opacity="0.85" filter="url(#brillo)"/>
-    <g fill="#1a0638">
-      <rect x="990" y="128" width="120" height="4"/><rect x="990" y="140" width="120" height="6"/><rect x="990" y="154" width="120" height="8"/>
+    <!-- Rascacielos lejanos -->
+    <g fill="#100428">
+      <rect x="0" y="120" width="55" height="170"/><rect x="50" y="70" width="40" height="220"/><rect x="88" y="140" width="60" height="150"/>
+      <rect x="145" y="90" width="35" height="200"/><rect x="178" y="150" width="70" height="140"/><rect x="245" y="110" width="45" height="180"/>
+      <rect x="905" y="170" width="55" height="120"/><rect x="958" y="150" width="45" height="140"/><rect x="1115" y="110" width="40" height="180"/><rect x="1150" y="150" width="50" height="140"/>
     </g>
+    <rect y="180" width="1200" height="110" fill="url(#bruma)"/>
 
-    <!-- Ciudad lejana -->
-    <g fill="#12042a">
-      <rect x="0" y="190" width="60" height="70"/><rect x="55" y="160" width="45" height="100"/><rect x="95" y="200" width="70" height="60"/>
-      <rect x="160" y="150" width="38" height="110"/><rect x="195" y="185" width="60" height="75"/><rect x="250" y="170" width="40" height="90"/>
-      <rect x="1040" y="175" width="50" height="85"/><rect x="1085" y="150" width="40" height="110"/><rect x="1120" y="190" width="80" height="70"/>
+    <!-- Rascacielos cercanos -->
+    <g fill="#070118">
+      <rect x="15" y="190" width="70" height="100"/><rect x="100" y="135" width="55" height="155"/><rect x="200" y="190" width="70" height="100"/>
+      <rect x="935" y="200" width="60" height="90"/><rect x="1125" y="160" width="60" height="130"/>
     </g>
-    <!-- Ciudad cercana con ventanas -->
-    <g fill="#08021a">
-      <rect x="20" y="215" width="70" height="45"/><rect x="110" y="185" width="50" height="75"/><rect x="220" y="205" width="55" height="55"/>
-      <rect x="1060" y="200" width="60" height="60"/><rect x="1140" y="180" width="45" height="80"/>
+    <g stroke-width="2" filter="url(#brillo)">
+      <line x1="154" y1="140" x2="154" y2="290" stroke="#ff2fb0" class="neon"/>
+      <line x1="936" y1="205" x2="936" y2="290" stroke="#00f0ff"/>
     </g>
     <g class="ventana">
       <g fill="#00f0ff">
-        <rect x="118" y="195" width="6" height="4"/><rect x="132" y="195" width="6" height="4"/><rect x="146" y="207" width="6" height="4"/>
-        <rect x="118" y="219" width="6" height="4"/><rect x="230" y="215" width="6" height="4"/><rect x="258" y="227" width="6" height="4"/>
-        <rect x="1150" y="192" width="6" height="4"/><rect x="1164" y="204" width="6" height="4"/>
+        <rect x="108" y="148" width="6" height="4"/><rect x="122" y="160" width="6" height="4"/><rect x="136" y="172" width="6" height="4"/>
+        <rect x="108" y="196" width="6" height="4"/><rect x="212" y="202" width="6" height="4"/><rect x="240" y="214" width="6" height="4"/>
+        <rect x="1135" y="172" width="6" height="4"/><rect x="1163" y="196" width="6" height="4"/>
       </g>
       <g fill="#ff2fb0">
-        <rect x="30" y="225" width="6" height="4"/><rect x="58" y="225" width="6" height="4"/><rect x="132" y="231" width="6" height="4"/>
-        <rect x="244" y="239" width="6" height="4"/><rect x="1070" y="212" width="6" height="4"/><rect x="1098" y="224" width="6" height="4"/>
+        <rect x="25" y="204" width="6" height="4"/><rect x="53" y="216" width="6" height="4"/><rect x="122" y="220" width="6" height="4"/>
+        <rect x="226" y="238" width="6" height="4"/><rect x="947" y="214" width="6" height="4"/><rect x="975" y="238" width="6" height="4"/><rect x="1149" y="232" width="6" height="4"/>
       </g>
     </g>
-    <!-- Cartel neón vertical: データ = "datos" -->
+
+    <!-- Cartel neón vertical: データ ("datos" en japonés) -->
     <g class="neon">
-      <rect x="62" y="118" width="26" height="86" rx="3" fill="#05010f" stroke="#00f0ff" stroke-width="1.5" filter="url(#brilloSuave)"/>
-      <text x="75" y="140" font-family="'Noto Sans CJK JP', 'Hiragino Sans', 'Yu Gothic', 'Meiryo', sans-serif" font-size="17" fill="#00f0ff" text-anchor="middle" filter="url(#brilloSuave)">
-        <tspan x="75" dy="0">デ</tspan><tspan x="75" dy="44">タ</tspan>
-      </text>
+      <rect x="62" y="96" width="26" height="86" rx="3" fill="#05010f" stroke="#00f0ff" stroke-width="1.5" filter="url(#brillo)"/>
+      <text x="75" y="118" font-family="'Noto Sans CJK JP', 'Hiragino Sans', 'Yu Gothic', 'Meiryo', sans-serif" font-size="17" fill="#00f0ff" text-anchor="middle"><tspan x="75" dy="0">デ</tspan><tspan x="75" dy="44">タ</tspan></text>
+      <rect x="74" y="126" width="2.2" height="14" fill="#00f0ff"/>
     </g>
-    <rect x="74" y="148" width="2.2" height="14" fill="#00f0ff" class="neon" filter="url(#brilloSuave)"/>
-    <!-- Antena -->
-    <line x1="179" y1="150" x2="179" y2="125" stroke="#3a1a5a" stroke-width="2"/>
-    <circle cx="179" cy="123" r="3" fill="#ff2fb0" class="parpadeo" filter="url(#brilloSuave)"/>
 
-    <!-- Suelo con grilla en perspectiva -->
-    <rect y="260" width="1200" height="80" fill="url(#suelo)"/>
-    <line x1="0" y1="260" x2="1200" y2="260" stroke="#ff2fb0" stroke-width="2" filter="url(#brilloSuave)"/>
-    <g stroke="#b026ff" stroke-width="1" opacity="0.55">
-      <line x1="600" y1="260" x2="-600" y2="340"/><line x1="600" y1="260" x2="-200" y2="340"/><line x1="600" y1="260" x2="150" y2="340"/>
-      <line x1="600" y1="260" x2="420" y2="340"/><line x1="600" y1="260" x2="600" y2="340"/><line x1="600" y1="260" x2="780" y2="340"/>
-      <line x1="600" y1="260" x2="1050" y2="340"/><line x1="600" y1="260" x2="1400" y2="340"/><line x1="600" y1="260" x2="1800" y2="340"/>
-    </g>
-    <g clip-path="url(#marco)">
-      <g class="grilla" stroke="#b026ff" stroke-width="1" opacity="0.5">
-        <line x1="0" y1="250" x2="1200" y2="250"/><line x1="0" y1="270" x2="1200" y2="270"/><line x1="0" y1="290" x2="1200" y2="290"/>
-        <line x1="0" y1="310" x2="1200" y2="310"/><line x1="0" y1="330" x2="1200" y2="330"/>
+    <!-- Holograma flotante con un gráfico de barras -->
+    <g class="holo">
+      <path d="M960 168 L960 200" stroke="#00f0ff" stroke-opacity="0.4" stroke-width="1"/>
+      <rect x="905" y="88" width="110" height="80" fill="url(#holo)" stroke="#00f0ff" stroke-opacity="0.8" filter="url(#brillo)"/>
+      <g fill="#00f0ff" opacity="0.85">
+        <rect x="917" y="140" width="12" height="18"/><rect x="935" y="128" width="12" height="30"/><rect x="953" y="116" width="12" height="42"/>
+        <rect x="971" y="124" width="12" height="34"/><rect x="989" y="104" width="12" height="54"/>
       </g>
-      <rect y="0" width="1200" height="261" fill="url(#cielo)" opacity="0" />
+      <text x="912" y="100" class="t" font-size="9" fill="#00f0ff">DATA.STREAM</text>
     </g>
 
-    <!-- Panel HUD -->
-    <rect x="300" y="70" width="600" height="170" rx="6" fill="#05010f" opacity="0.55" stroke="#00f0ff" stroke-opacity="0.35"/>
-    <g stroke="#00f0ff" stroke-width="2" fill="none" filter="url(#brilloSuave)">
-      <path d="M300 92 V70 H322"/><path d="M878 70 H900 V92"/><path d="M300 218 V240 H322"/><path d="M878 240 H900 V218"/>
+    <!-- Asfalto mojado con reflejos de neón -->
+    <rect y="290" width="1200" height="90" fill="url(#asfalto)"/>
+    <line x1="0" y1="290" x2="1200" y2="290" stroke="#ff2fb0" stroke-width="1.5" opacity="0.7" filter="url(#brillo)"/>
+    <g filter="url(#difuso)">
+      <rect x="150" y="292" width="8" height="70" fill="url(#reflejoM)"/>
+      <rect x="932" y="292" width="8" height="70" fill="url(#reflejoC)"/>
+      <rect x="62" y="292" width="26" height="60" fill="url(#reflejoC)" opacity="0.6"/>
+      <rect x="905" y="292" width="110" height="40" fill="url(#reflejoC)" opacity="0.4"/>
+      <rect x="300" y="292" width="600" height="55" fill="url(#reflejoC)" opacity="0.22"/>
+      <rect x="1026" y="292" width="68" height="50" fill="url(#reflejoM)" opacity="0.35"/>
+    </g>
+    <g stroke="#ffffff" stroke-opacity="0.08"><line x1="0" y1="320" x2="1200" y2="320"/><line x1="0" y1="348" x2="1200" y2="348"/></g>
+
+    <!-- Lluvia -->
+    <g stroke="#9fe8ff" stroke-width="1" opacity="0.35" class="lluvia">
+      <line x1="40" y1="10" x2="34" y2="30"/><line x1="130" y1="60" x2="124" y2="80"/><line x1="230" y1="20" x2="224" y2="40"/>
+      <line x1="330" y1="110" x2="324" y2="130"/><line x1="420" y1="30" x2="414" y2="50"/><line x1="520" y1="250" x2="514" y2="270"/>
+      <line x1="610" y1="40" x2="604" y2="60"/><line x1="700" y1="270" x2="694" y2="290"/><line x1="790" y1="20" x2="784" y2="40"/>
+      <line x1="880" y1="230" x2="874" y2="250"/><line x1="980" y1="60" x2="974" y2="80"/><line x1="1080" y1="240" x2="1074" y2="260"/>
+      <line x1="1170" y1="40" x2="1164" y2="60"/><line x1="60" y1="210" x2="54" y2="230"/><line x1="280" y1="300" x2="274" y2="320"/>
+      <line x1="960" y1="320" x2="954" y2="340"/>
+    </g>
+    <g stroke="#ff9ad8" stroke-width="1" opacity="0.25" class="lluvia2">
+      <line x1="90" y1="130" x2="84" y2="150"/><line x1="190" y1="240" x2="184" y2="260"/><line x1="380" y1="200" x2="374" y2="220"/>
+      <line x1="470" y1="120" x2="464" y2="140"/><line x1="560" y1="180" x2="554" y2="200"/><line x1="750" y1="150" x2="744" y2="170"/>
+      <line x1="840" y1="90" x2="834" y2="110"/><line x1="1030" y1="140" x2="1024" y2="160"/><line x1="1130" y1="310" x2="1124" y2="330"/>
+      <line x1="660" y1="320" x2="654" y2="340"/>
     </g>
 
-    <text x="320" y="96" class="t" font-size="13" fill="#00f0ff" opacity="0.85">SYS://perfil.cargado  ▸  BUENOS AIRES, AR</text>
-    <circle cx="826" cy="91" r="4" fill="#ff2fb0" class="parpadeo" filter="url(#brilloSuave)"/>
-    <text x="880" y="96" class="t" font-size="13" fill="#ff2fb0" text-anchor="end" opacity="0.9">ONLINE</text>
+    <!-- Panel de implante / HUD -->
+    <rect x="300" y="78" width="600" height="190" rx="4" fill="#05010f" opacity="0.62" stroke="#00f0ff" stroke-opacity="0.35"/>
+    <rect x="302" y="82" width="596" height="2" fill="#00f0ff" opacity="0.6" class="barrido" filter="url(#brillo)"/>
+    <g stroke="#00f0ff" stroke-width="2" fill="none" filter="url(#brillo)">
+      <path d="M300 100 V78 H322"/><path d="M878 78 H900 V100"/><path d="M300 246 V268 H322"/><path d="M878 268 H900 V246"/>
+    </g>
 
-    <!-- Título con glitch -->
+    <text x="320" y="104" class="t" font-size="13" fill="#00f0ff" opacity="0.85">NET://enlace.neural  ▸  ACCESO CONCEDIDO</text>
+    <circle cx="826" cy="99" r="4" fill="#ff2fb0" class="parpadeo" filter="url(#brillo)"/>
+    <text x="880" y="104" class="t" font-size="13" fill="#ff2fb0" text-anchor="end" opacity="0.9">ONLINE</text>
+
     <g class="t titulo" text-anchor="middle">
-      <text x="600" y="162" fill="#00f0ff" opacity="0.8" class="glitch-c">JEAN ESQUEN</text>
-      <text x="600" y="162" fill="#ff2fb0" opacity="0.8" class="glitch-m">JEAN ESQUEN</text>
-      <text x="600" y="162" fill="#f4f0ff" class="neon" filter="url(#brilloSuave)">JEAN ESQUEN</text>
+      <text x="600" y="170" fill="#00f0ff" opacity="0.8" class="glitch-c">JEAN ESQUEN</text>
+      <text x="600" y="170" fill="#ff2fb0" opacity="0.8" class="glitch-m">JEAN ESQUEN</text>
+      <text x="600" y="170" fill="#f4f0ff" class="neon" filter="url(#brillo)">JEAN ESQUEN</text>
     </g>
 
-    <text x="600" y="198" class="t" font-size="18" fill="#f4f0ff" text-anchor="middle" letter-spacing="2">&gt; CIENCIA DE DATOS // ANÁLISIS // DESARROLLO</text>
-    <text x="600" y="226" class="t" font-size="12" fill="#b9a6e8" text-anchor="middle" letter-spacing="1">PYTHON · PANDAS · SQL · MATPLOTLIB · C# · .NET</text>
+    <text x="600" y="206" class="t" font-size="18" fill="#f4f0ff" text-anchor="middle" letter-spacing="2">&gt; CIENCIA DE DATOS // ANÁLISIS // DESARROLLO</text>
+    <text x="600" y="234" class="t" font-size="12" fill="#b9a6e8" text-anchor="middle" letter-spacing="1">PYTHON · PANDAS · SQL · MATPLOTLIB · C# · .NET</text>
+    <text x="320" y="258" class="t" font-size="10" fill="#00f0ff" opacity="0.6">IMPLANTE: ANALISTA.v2  ·  SECTOR: BUENOS AIRES, AR</text>
+    <text x="880" y="258" class="t" font-size="10" fill="#ff2fb0" opacity="0.7" text-anchor="end">SYNC 98%</text>
 
-    <!-- Capa de scanlines -->
-    <rect width="1200" height="340" fill="url(#scan)"/>
+    <rect width="1200" height="380" fill="url(#scan)"/>
   </g>
-  <rect x="1" y="1" width="1198" height="338" rx="14" fill="none" stroke="#ff2fb0" stroke-opacity="0.6" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="378" rx="14" fill="none" stroke="#ff2fb0" stroke-opacity="0.6" stroke-width="2"/>
 </svg>
