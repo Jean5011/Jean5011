@@ -12,7 +12,7 @@ Estudio la Licenciatura en Ciencia de Datos. Lo que más me gusta es tomar datos
  
 Mi primer sistema de punto de venta lo usan varios comercios. Desde ahí me quedó una costumbre: antes de escribir código, pregunto cómo trabaja la persona que lo va a usar.
  
-**Ahora mismo:**
+<img src="assets/secciones/estado.svg" alt="Estado del sistema: lo que estoy haciendo ahora" width="100%">
  
 - Publiqué mi primer análisis completo con datos públicos: diez años de ingresos laborales en Argentina con la EPH del INDEC.
 - Trabajo como pasante de automatización y datos en CAMEES, de forma remota: depuro bases, armo validaciones con Apps Script y planillas de seguimiento.
@@ -21,7 +21,7 @@ Mi primer sistema de punto de venta lo usan varios comercios. Desde ahí me qued
 
 <img src="assets/divider.svg" alt="" width="100%">
  
-## 📊 Datos e inteligencia artificial
+<img src="assets/secciones/datos.svg" alt="Sector datos: análisis de datos e inteligencia artificial" width="100%">
 
 **[Ingresos laborales en Argentina, 2017–2026](https://github.com/Jean5011/eph-ingresos-laborales-argentina)**
 Mi proyecto de datos más completo. Analicé diez años de la Encuesta Permanente de Hogares del INDEC (369.946 personas) para ver cómo cambiaron los ingresos según la edad, el nivel educativo y la región. Ajusté todo por inflación, usé los ponderadores oficiales y solo di por sólido un cambio cuando la media y la mediana coincidían. Lo que encontré: después de la cuarentena hay más empleo y menos desempleo, pero quienes trabajan ganan alrededor de un 16 % menos en términos reales.
@@ -41,7 +41,7 @@ Lo construí en el taller de Nerdearla siguiendo el codelab de Google ([material
 
 <img src="assets/divider.svg" alt="" width="100%">
  
-## 🛒 Desarrollo: sistemas que construí
+<img src="assets/secciones/desarrollo.svg" alt="Sector desarrollo: sistemas que construí" width="100%">
  
 **[Inventario Kiosco](https://github.com/Jean5011/Inventario-Kiosco-)**
 Punto de venta e inventario de escritorio. Tiene más de 15 módulos y lo usan varios clientes. Uso transacciones en SQL Server para que el stock no se descuadre en los cierres con mucho movimiento, y las contraseñas se guardan con hashing PBKDF2. Lee códigos de barras e imprime tickets en impresoras térmicas.
@@ -69,7 +69,7 @@ El Snake clásico en consola, con velocidad que aumenta y registro de puntajes. 
 
 <img src="assets/divider.svg" alt="" width="100%">
  
-## 🎓 De la facultad
+<img src="assets/secciones/academico.svg" alt="Archivo académico: proyectos de la facultad" width="100%">
  
 | Proyecto | Qué es | Stack |
 |---|---|---|
@@ -81,7 +81,7 @@ El Snake clásico en consola, con velocidad que aumenta y registro de puntajes. 
 
 <img src="assets/divider.svg" alt="" width="100%">
  
-## 🛠️ Con qué trabajo
+<img src="assets/secciones/ciberware.svg" alt="Ciberware instalado: herramientas con las que trabajo" width="100%">
  
 **Datos**
  
@@ -119,13 +119,13 @@ El Snake clásico en consola, con velocidad que aumenta y registro de puntajes. 
 
 <img src="assets/divider.svg" alt="" width="100%">
  
-## 🙋 Un poco más de mí
+<img src="assets/secciones/registro.svg" alt="Registro personal: un poco más de mí" width="100%">
  
 Antes de programar a tiempo completo pasé dos años en soporte técnico, resolviendo problemas de red por teléfono. Ahí aprendí a explicar cosas técnicas sin vueltas. También di clases de Sistemas Operativos y Programación Orientada a Objetos en la Universidad de Pilar, a grupos de entre 30 y 70 alumnos.
 
 <img src="assets/divider.svg" alt="" width="100%">
  
-## 📫 Hablemos
+<img src="assets/secciones/canal.svg" alt="Abrir canal: hablemos" width="100%">
  
 <p align="center">
   <a href="https://www.linkedin.com/in/jeanesquen"><img src="https://img.shields.io/badge/LinkedIn-jeanesquen-0D0221?style=for-the-badge&logo=linkedin&logoColor=00F0FF" alt="LinkedIn"></a>

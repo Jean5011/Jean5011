@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 64" width="900" height="64" role="img" aria-label="ABRIR CANAL: hablemos">
+  <defs>
+    <filter id="b" x="-10%" y="-60%" width="120%" height="220%"><feGaussianBlur stdDeviation="2.5" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="f" x1="0" x2="1"><stop offset="0" stop-color="#00f0ff" stop-opacity="0.18"/><stop offset="1" stop-color="#00f0ff" stop-opacity="0"/></linearGradient>
+    <style>
+      .t{font-family:'DejaVu Sans Mono','Consolas','Courier New',monospace}
+      .g1{animation:a 4s infinite steps(1)} .g2{animation:z 4s infinite steps(1)}
+      @keyframes a{0%,90%,100%{transform:translate(0,0)}92%{transform:translate(-5px,1px)}94%{transform:translate(3px,-1px)}}
+      @keyframes z{0%,90%,100%{transform:translate(0,0)}92%{transform:translate(5px,-1px)}94%{transform:translate(-3px,1px)}}
+      .cur{animation:p 1s infinite steps(1)} @keyframes p{50%{opacity:0}}
+      .scan{animation:s 3.5s ease-in-out infinite} @keyframes s{from{transform:translateX(0)}to{transform:translateX(860px)}}
+    </style>
+  </defs>
+  <rect x="2" y="8" width="896" height="48" rx="3" fill="url(#f)"/>
+  <path d="M2 24 V8 H20 M880 56 H898 V40" fill="none" stroke="#00f0ff" stroke-width="2" filter="url(#b)"/>
+  <rect x="2" y="54" width="40" height="2" fill="#00f0ff" class="scan" filter="url(#b)"/>
+  <text x="22" y="40" class="t" font-size="13" fill="#00f0ff" opacity="0.9">◈</text>
+  <g class="t" font-size="22" font-weight="700" letter-spacing="3">
+    <text x="44" y="41" fill="#00f0ff" opacity="0.6" class="g1">ABRIR CANAL</text>
+    <text x="44" y="41" fill="#ff2fb0" opacity="0.6" class="g2">ABRIR CANAL</text>
+    <text x="44" y="41" fill="#f4f0ff" filter="url(#b)">ABRIR CANAL</text>
+  </g>
+  <text x="878" y="40" class="t" font-size="13" fill="#00f0ff" text-anchor="end" opacity="0.85">// hablemos<tspan class="cur">_</tspan></text>
+</svg>
