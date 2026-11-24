@@ -23,6 +23,8 @@ Mi proyecto de datos más completo. Analicé diez años de la Encuesta Permanent
 **[Auditoría del mercado laboral tech](https://github.com/Jean5011/Auditoria_mercado_laboral_tech)**
 Tomé un dataset público con más de 2.200 ofertas de empleo tech, bastante desordenado, y lo convertí en una base relacional. Limpié los salarios con expresiones regulares, cargué todo en SQLite y respondí con SQL qué sectores y ciudades pagan más. Solo comparé grupos con al menos 30 ofertas, para no sacar conclusiones de muestras chicas.
 `Python` `Pandas` `Regex` `SQLite` `SQL`
+
+<img src="assets/auditoria_salario_ciudad.png" alt="Salario promedio de ofertas de Data Analyst por ciudad en EE. UU., ciudades con al menos 30 ofertas" width="720">
  
 **[AI Creative Studio](https://github.com/Jean5011/ai-creative-studio-guia)**
 Lo construí en el taller de Nerdearla siguiendo el codelab de Google ([material original de Saoussen-CH](https://github.com/Saoussen-CH/mas-a2a-gcp)). Son 6 agentes de IA que arman una campaña de Instagram completa a partir de una sola instrucción. Desplegué los agentes en Cloud Run y aprendí mucho resolviendo errores de permisos leyendo logs.
