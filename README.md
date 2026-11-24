@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="Jean Esquen: ciencia de datos, análisis y desarrollo" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/Jean5011"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=900&color=00F0FF&center=true&vCenter=true&width=620&lines=Estudiante+de+Ciencia+de+Datos;Convierto+datos+desordenados+en+respuestas+claras;Python+%C2%B7+Pandas+%C2%B7+SQL+%C2%B7+.NET" alt="Estudiante de Ciencia de Datos"></a>
+</p>
+
 # Hola, soy Jean 👋
  
 Estudio la Licenciatura en Ciencia de Datos. Lo que más me gusta es tomar datos desordenados, entender qué cuentan y explicarlo claro, sin hacerles decir más de lo que dicen. Antes me formé como programador en la UTN, así que también sé construir sistemas que alguien usa de verdad.
@@ -10,7 +18,7 @@ Mi primer sistema de punto de venta lo usan varios comercios. Desde ahí me qued
 - Trabajo como pasante de automatización y datos en CAMEES, de forma remota: depuro bases, armo validaciones con Apps Script y planillas de seguimiento.
 - Estoy armando un sistema de facturación electrónica conectado a ARCA.
 - Busco mi primer puesto como trainee en ciencia o análisis de datos, o como desarrollador .NET junior.
----
+<img src="assets/divider.svg" alt="" width="100%">
  
 ## 📊 Datos e inteligencia artificial
 
@@ -30,7 +38,7 @@ Tomé un dataset público con más de 2.200 ofertas de empleo tech, bastante des
 Lo construí en el taller de Nerdearla siguiendo el codelab de Google ([material original de Saoussen-CH](https://github.com/Saoussen-CH/mas-a2a-gcp)). Son 6 agentes de IA que arman una campaña de Instagram completa a partir de una sola instrucción. Desplegué los agentes en Cloud Run y aprendí mucho resolviendo errores de permisos leyendo logs.
 `Python` `Google ADK` `Gemini` `A2A` `MCP` `Cloud Run`
  
----
+<img src="assets/divider.svg" alt="" width="100%">
  
 ## 🛒 Desarrollo: sistemas que construí
  
@@ -58,7 +66,7 @@ App web para llevar ingresos y gastos y ver el balance en tiempo real.
 El Snake clásico en consola, con velocidad que aumenta y registro de puntajes. Lo hice por diversión.
 `C#` `.NET Framework`
  
----
+<img src="assets/divider.svg" alt="" width="100%">
  
 ## 🎓 De la facultad
  
@@ -70,54 +78,58 @@ El Snake clásico en consola, con velocidad que aumenta y registro de puntajes. 
 | [TP Integrador](https://github.com/Jean5011/TP_Integrador) | Proyecto académico | Java |
 | [Programación 3](https://github.com/Jean5011/TP_Programacion_3) | Trabajos prácticos de la materia | C# |
  
----
+<img src="assets/divider.svg" alt="" width="100%">
  
 ## 🛠️ Con qué trabajo
  
 **Datos**
  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
-![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=flat&logo=googlecolab&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
+![Python](https://img.shields.io/badge/Python-0D0221?style=for-the-badge&logo=python&logoColor=00F0FF)
+![Pandas](https://img.shields.io/badge/Pandas-0D0221?style=for-the-badge&logo=pandas&logoColor=00F0FF)
+![NumPy](https://img.shields.io/badge/NumPy-0D0221?style=for-the-badge&logo=numpy&logoColor=00F0FF)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-0D0221?style=for-the-badge&logoColor=00F0FF)
+![Google Colab](https://img.shields.io/badge/Google_Colab-0D0221?style=for-the-badge&logo=googlecolab&logoColor=00F0FF)
+![SQLite](https://img.shields.io/badge/SQLite-0D0221?style=for-the-badge&logo=sqlite&logoColor=00F0FF)
+![Excel](https://img.shields.io/badge/Excel-0D0221?style=for-the-badge&logo=microsoftexcel&logoColor=00F0FF)
  
 **Desarrollo**
  
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat&logo=dotnet&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-0D0221?style=for-the-badge&logo=dotnet&logoColor=FF2FB0)
+![.NET](https://img.shields.io/badge/.NET-0D0221?style=for-the-badge&logo=dotnet&logoColor=FF2FB0)
+![SQL Server](https://img.shields.io/badge/SQL_Server-0D0221?style=for-the-badge&logo=microsoftsqlserver&logoColor=FF2FB0)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D0221?style=for-the-badge&logo=postgresql&logoColor=FF2FB0)
+![JavaScript](https://img.shields.io/badge/JavaScript-0D0221?style=for-the-badge&logo=javascript&logoColor=FF2FB0)
+![React](https://img.shields.io/badge/React-0D0221?style=for-the-badge&logo=react&logoColor=FF2FB0)
+![Next.js](https://img.shields.io/badge/Next.js-0D0221?style=for-the-badge&logo=nextdotjs&logoColor=FF2FB0)
+![TypeScript](https://img.shields.io/badge/TypeScript-0D0221?style=for-the-badge&logo=typescript&logoColor=FF2FB0)
  
 **Herramientas**
  
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Cloud_Run-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Git](https://img.shields.io/badge/Git-0D0221?style=for-the-badge&logo=git&logoColor=B026FF)
+![Docker](https://img.shields.io/badge/Docker-0D0221?style=for-the-badge&logo=docker&logoColor=B026FF)
+![Google Cloud](https://img.shields.io/badge/Cloud_Run-0D0221?style=for-the-badge&logo=googlecloud&logoColor=B026FF)
  
 **Google Workspace**
  
-![Google Forms](https://img.shields.io/badge/Google_Forms-7248B9?style=flat&logo=googleforms&logoColor=white)
-![Google Docs](https://img.shields.io/badge/Google_Docs-4285F4?style=flat&logo=googledocs&logoColor=white)
-![Google Sheets](https://img.shields.io/badge/Google_Sheets-34A853?style=flat&logo=googlesheets&logoColor=white)
-![Apps Script](https://img.shields.io/badge/Apps_Script-4285F4?style=flat&logo=google&logoColor=white)
+![Google Forms](https://img.shields.io/badge/Google_Forms-0D0221?style=for-the-badge&logo=googleforms&logoColor=00F0FF)
+![Google Docs](https://img.shields.io/badge/Google_Docs-0D0221?style=for-the-badge&logo=googledocs&logoColor=00F0FF)
+![Google Sheets](https://img.shields.io/badge/Google_Sheets-0D0221?style=for-the-badge&logo=googlesheets&logoColor=00F0FF)
+![Apps Script](https://img.shields.io/badge/Apps_Script-0D0221?style=for-the-badge&logo=google&logoColor=00F0FF)
  
----
+<img src="assets/divider.svg" alt="" width="100%">
  
 ## 🙋 Un poco más de mí
  
 Antes de programar a tiempo completo pasé dos años en soporte técnico, resolviendo problemas de red por teléfono. Ahí aprendí a explicar cosas técnicas sin vueltas. También di clases de Sistemas Operativos y Programación Orientada a Objetos en la Universidad de Pilar, a grupos de entre 30 y 70 alumnos.
  
----
+<img src="assets/divider.svg" alt="" width="100%">
  
 ## 📫 Hablemos
  
-- LinkedIn: [linkedin.com/in/jeanesquen](https://www.linkedin.com/in/jeanesquen)
-- Email: jeanpierreesquen@gmail.com
+<p align="center">
+  <a href="https://www.linkedin.com/in/jeanesquen"><img src="https://img.shields.io/badge/LinkedIn-jeanesquen-0D0221?style=for-the-badge&logo=linkedin&logoColor=00F0FF" alt="LinkedIn"></a>
+  <a href="mailto:jeanpierreesquen@gmail.com"><img src="https://img.shields.io/badge/Email-jeanpierreesquen@gmail.com-0D0221?style=for-the-badge&logo=gmail&logoColor=FF2FB0" alt="Email"></a>
+</p>
+
+<p align="center"><sub><code>&gt; fin de la transmisión_</code></sub></p>
  
